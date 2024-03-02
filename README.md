@@ -1,9 +1,14 @@
 # Telephone Package
 
 ## Replit Link for the project (read the readme file here first before going to replit thanks)
-[Click here to run the project on replit](https://replit.com/@uchesolomon61/javascriptDesignPatternsTask8#index.js)
+[Click here to run the interactive version of this project on replit ](https://replit.com/@uchesolomon61/javascriptDesignPatternsTask8#index.js)
+- Or clone this repo to view and run the static but direct to the task version on your local machine
 
+
+## About the project
 This project implements a simple telephone package in JavaScript, showcasing design patterns such as the observer pattern. The telephone package includes functionality to add, remove, and dial phone numbers, with the ability to notify observers whenever a phone number is dialed.
+
+
 
 ## Features
 
