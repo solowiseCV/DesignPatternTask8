@@ -11,7 +11,10 @@ class Telephone{
     if(index !== -1)
     {
       this.phoneNumbers.splice(index,1);
-    }  }
+      console.log(number,"Removed from Phone numbers array")
+    } else{
+      console.log("this Phone Number is not in you contact list")
+    } }
   dialPhoneNumber(number){
     if(this.phoneNumbers.includes(number)){
       this.notifyObservers( number);
@@ -59,6 +62,5 @@ telephone.addObserver(observer1);
 telephone.addObserver(observer2);
 telephone.addPhoneNumber('+2347023232');
 telephone.dialPhoneNumber('+2347023232');
-telephone.removePhoneNumber('+2347023232');
-telephone.dialPhoneNumber('+2347023232');
-telephone.dialPhoneNumber('+2347023232');
+
+//Remove Phone number
